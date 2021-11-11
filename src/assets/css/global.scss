@@ -1,4 +1,15 @@
 
+// 主题颜色
+$primary-color: #378f77;
+// 主题渐变色
+$primary-liner-color: linear-gradient(90deg, #46be9d 0%, $primary-color 100%), linear-gradient(#fff, #fff);
+.btnlr-gradient {
+ background: -webkit-linear-gradient(to right, #46be9d, #2e9377);
+ background: -o-linear-gradient(to right, #46be9d, #2e9377);
+ background: -moz-linear-gradient(to right, #46be9d, #2e9377);
+ background: linear-gradient(to right, #46be9d, #2e9377);
+}
+
 /*自定义属性*/
 /* flex */
 .flex {
@@ -319,6 +330,9 @@
 .margin-l-40 {
  margin-left: 40px;
 }
+.margin-l-50 {
+ margin-left: 50px;
+}
 
 .margin-l-60 {
  margin-left: 60px;
@@ -576,6 +590,9 @@
 }
 .color-C30602 {
  color: #C30602;
+}
+.color-primary {
+ color: $primary-color;
 }
 
 .color-00 {
